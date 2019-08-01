@@ -1,1 +1,9 @@
-{"permitted_resource_relationships":[]}
+{
+    "permitted_resource_relationships":[],
+    "business_data_load_order": [
+        "paiute-rocks-images.csv",
+        "paiute-rocks-3d-panels-with-img.csv",
+        "red-pigment-3d-panels.csv",
+        "all-point-clouds.csv"
+    ]
+}
