@@ -3,6 +3,13 @@
     "resource_model_name": "3D Rock Art Panel", 
     "nodes": [
         {
+            "arches_nodeid": "8f2248d1-c86d-11e9-af7e-94659cf754d0", 
+            "arches_node_name": "Coordinates", 
+            "file_field_name": "Geometry", 
+            "data_type": "geojson-feature-collection", 
+            "export": false
+        }, 
+        {
             "arches_nodeid": "a7fb9b60-bfed-11e8-a478-0242ac160004", 
             "arches_node_name": "3D Model File", 
             "file_field_name": "3D Model File", 
