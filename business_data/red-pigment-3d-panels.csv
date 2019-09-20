@@ -1,18 +1,18 @@
-ResourceID,Title,Description,3D Model File,File Format Type,Measurement Unit,Thumbnail Image,Photographs,Drawings
-1f791dd1-abba-54bd-01a0-9f77b57c7fcf,Red Pigment - Panel 1 Bottom F1,this is the description for Red Pigment - Panel 1 Bottom F1,Red-Pigment_Panel-1-Bottom-F1.ply,PLY,Centimeter,Red-Pigment_Panel-1-Bottom-F1_Preview-Image.jpg,,
-1f791dd1-abba-54bd-01b0-9f77b57c7fcf,Red Pigment - Panel 1 Top F1,this is the description for Red Pigment - Panel 1 Top F1,Red-Pigment_Panel-1-Top-F1.ply,PLY,Centimeter,Red-Pigment_Panel-1-Top-F1_Preview-Image.jpg,,
-1f791dd1-abba-54bd-10c0-9f77b57c7fcf,Red Pigment - Panel 10C,this is the description for Red Pigment - Panel 10C,Red-Pigment_Panel-10C.ply,PLY,Centimeter,Red-Pigment_Panel-10C_Preview-Image.jpg,,
-1f791dd1-abba-54bd-17a0-9f77b57c7fcf,Red Pigment - Panel 17A,this is the description for Red Pigment - Panel 17A,Red-Pigment_Panel-17A.ply,PLY,Centimeter,Red-Pigment_Panel-17A_Preview-Image.jpg,,
-1f791dd1-abba-54bd-17b0-9f77b57c7fcf,Red Pigment - Panel 17B,this is the description for Red Pigment - Panel 17B,Red-Pigment_Panel-17B.ply,PLY,Centimeter,Red-Pigment_Panel-17B_Preview-Image.jpg,,
-1f791dd1-abba-54bd-1900-9f77b57c7fcf,Red Pigment - Panel 19,this is the description for Red Pigment - Panel 19,Red-Pigment_Panel-19.ply,PLY,Centimeter,Red-Pigment_Panel-19_Preview-Image.jpg,,
-1f791dd1-abba-54bd-02a0-9f77b57c7fcf,Red Pigment - Panel 2 F1,this is the description for Red Pigment - Panel 2 F1,Red-Pigment_Panel-2-F1.ply,PLY,Centimeter,Red-Pigment_Panel-2-F1_Preview-Image.jpg,,
-1f791dd1-abba-54bd-02b0-9f77b57c7fcf,Red Pigment - Panel 2,this is the description for Red Pigment - Panel 2,Red-Pigment_Panel-2.ply,PLY,Centimeter,Red-Pigment_Panel-2_Preview-Image.jpg,,
-1f791dd1-abba-54bd-2100-9f77b57c7fcf,Red Pigment - Panel 21,this is the description for Red Pigment - Panel 21,Red-Pigment_Panel-21.ply,PLY,Centimeter,Red-Pigment_Panel-21_Preview-Image.jpg,,
-1f791dd1-abba-54bd-23a0-9f77b57c7fcf,Red Pigment - Panel 23A,this is the description for Red Pigment - Panel 23A,Red-Pigment_Panel-23A.ply,PLY,Centimeter,Red-Pigment_Panel-23A_Preview-Image.jpg,,
-1f791dd1-abba-54bd-23b0-9f77b57c7fcf,Red Pigment - Panel 23B,this is the description for Red Pigment - Panel 23B,Red-Pigment_Panel-23B.ply,PLY,Centimeter,Red-Pigment_Panel-23B_Preview-Image.jpg,,
-1f791dd1-abba-54bd-23c0-9f77b57c7fcf,Red Pigment - Panel 23C,this is the description for Red Pigment - Panel 23C,Red-Pigment_Panel-23C.ply,PLY,Centimeter,Red-Pigment_Panel-23C_Preview-Image.jpg,,
-1f791dd1-abba-54bd-2400-9f77b57c7fcf,Red Pigment - Panel 24,this is the description for Red Pigment - Panel 24,Red-Pigment_Panel-24.ply,PLY,Centimeter,Red-Pigment_Panel-24_Preview-Image.jpg,,
-1f791dd1-abba-54bd-2500-9f77b57c7fcf,Red Pigment - Panel 25,this is the description for Red Pigment - Panel 25,Red-Pigment_Panel-25.ply,PLY,Centimeter,Red-Pigment_Panel-25_Preview-Image.jpg,,
-1f791dd1-abba-54bd-3300-9f77b57c7fcf,Red Pigment - Panel 33,this is the description for Red Pigment - Panel 33,Red-Pigment_Panel-33.ply,PLY,Centimeter,Red-Pigment_Panel-33_Preview-Image.jpg,,
-1f791dd1-abba-54bd-3500-9f77b57c7fcf,Red Pigment - Panel 35,this is the description for Red Pigment - Panel 35,Red-Pigment_Panel-35.ply,PLY,Centimeter,Red-Pigment_Panel-35_Preview-Image.jpg,,
-1f791dd1-abba-54bd-0700-9f77b57c7fcf,Red Pigment - Panel 7,this is the description for Red Pigment - Panel 7,Red-Pigment_Panel-7.ply,PLY,Centimeter,Red-Pigment_Panel-7_Preview-Image.jpg,,
+ResourceID,Title,Description,3D Model File,File Format Type,Measurement Unit,Thumbnail Image,Photographs,Drawings,Geometry
+b0b0b0b0-abba-54bd-01a0-9f77b57c7fcf,Red Pigment - Panel 1 Bottom F1,this is the description for Red Pigment - Panel 1 Bottom F1,Red-Pigment_Panel-1-Bottom-F1.ply,PLY,Centimeter,Red-Pigment_Panel-1-Bottom-F1_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-01b0-9f77b57c7fcf,Red Pigment - Panel 1 Top F1,this is the description for Red Pigment - Panel 1 Top F1,Red-Pigment_Panel-1-Top-F1.ply,PLY,Centimeter,Red-Pigment_Panel-1-Top-F1_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-10c0-9f77b57c7fcf,Red Pigment - Panel 10C,this is the description for Red Pigment - Panel 10C,Red-Pigment_Panel-10C.ply,PLY,Centimeter,Red-Pigment_Panel-10C_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-17a0-9f77b57c7fcf,Red Pigment - Panel 17A,this is the description for Red Pigment - Panel 17A,Red-Pigment_Panel-17A.ply,PLY,Centimeter,Red-Pigment_Panel-17A_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-17b0-9f77b57c7fcf,Red Pigment - Panel 17B,this is the description for Red Pigment - Panel 17B,Red-Pigment_Panel-17B.ply,PLY,Centimeter,Red-Pigment_Panel-17B_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-1900-9f77b57c7fcf,Red Pigment - Panel 19,this is the description for Red Pigment - Panel 19,Red-Pigment_Panel-19.ply,PLY,Centimeter,Red-Pigment_Panel-19_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-02a0-9f77b57c7fcf,Red Pigment - Panel 2 F1,this is the description for Red Pigment - Panel 2 F1,Red-Pigment_Panel-2-F1.ply,PLY,Centimeter,Red-Pigment_Panel-2-F1_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-02b0-9f77b57c7fcf,Red Pigment - Panel 2,this is the description for Red Pigment - Panel 2,Red-Pigment_Panel-2.ply,PLY,Centimeter,Red-Pigment_Panel-2_Preview-Image.jpg,,,Point (-115.28384112 37.3596587)
+b0b0b0b0-abba-54bd-2100-9f77b57c7fcf,Red Pigment - Panel 21,this is the description for Red Pigment - Panel 21,Red-Pigment_Panel-21.ply,PLY,Centimeter,Red-Pigment_Panel-21_Preview-Image.jpg,,,Point (-115.2826744 37.35971813)
+b0b0b0b0-abba-54bd-23a0-9f77b57c7fcf,Red Pigment - Panel 23A,this is the description for Red Pigment - Panel 23A,Red-Pigment_Panel-23A.ply,PLY,Centimeter,Red-Pigment_Panel-23A_Preview-Image.jpg,,,Point (-115.28273183 37.35973172)
+b0b0b0b0-abba-54bd-23b0-9f77b57c7fcf,Red Pigment - Panel 23B,this is the description for Red Pigment - Panel 23B,Red-Pigment_Panel-23B.ply,PLY,Centimeter,Red-Pigment_Panel-23B_Preview-Image.jpg,,,Point (-115.28273184 37.35973172)
+b0b0b0b0-abba-54bd-23c0-9f77b57c7fcf,Red Pigment - Panel 23C,this is the description for Red Pigment - Panel 23C,Red-Pigment_Panel-23C.ply,PLY,Centimeter,Red-Pigment_Panel-23C_Preview-Image.jpg,,,Point (-115.28273182 37.35973171)
+b0b0b0b0-abba-54bd-2400-9f77b57c7fcf,Red Pigment - Panel 24,this is the description for Red Pigment - Panel 24,Red-Pigment_Panel-24.ply,PLY,Centimeter,Red-Pigment_Panel-24_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-2500-9f77b57c7fcf,Red Pigment - Panel 25,this is the description for Red Pigment - Panel 25,Red-Pigment_Panel-25.ply,PLY,Centimeter,Red-Pigment_Panel-25_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-3300-9f77b57c7fcf,Red Pigment - Panel 33,this is the description for Red Pigment - Panel 33,Red-Pigment_Panel-33.ply,PLY,Centimeter,Red-Pigment_Panel-33_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-3500-9f77b57c7fcf,Red Pigment - Panel 35,this is the description for Red Pigment - Panel 35,Red-Pigment_Panel-35.ply,PLY,Centimeter,Red-Pigment_Panel-35_Preview-Image.jpg,,,
+b0b0b0b0-abba-54bd-0700-9f77b57c7fcf,Red Pigment - Panel 7,this is the description for Red Pigment - Panel 7,Red-Pigment_Panel-7.ply,PLY,Centimeter,Red-Pigment_Panel-7_Preview-Image.jpg,,,
