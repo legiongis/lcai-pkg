@@ -197,6 +197,15 @@
                 }, 
                 {
                     "description": null, 
+                    "domainnode_id": "ddf1d5ea-d145-11e8-897e-0242ac1a0004", 
+                    "edgeid": "61e2852f-f435-11e9-8eae-94659cf754d0", 
+                    "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies", 
+                    "rangenode_id": "61e2852e-f435-11e9-9953-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
                     "domainnode_id": "ddf1e634-d145-11e8-897e-0242ac1a0004", 
                     "edgeid": "ddf20600-d145-11e8-897e-0242ac1a0004", 
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004", 
@@ -260,7 +269,7 @@
                     }, 
                     "function_id": "60000000-0000-0000-0000-000000000001", 
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004", 
-                    "id": "a314d50f-6873-11e9-a6f5-94659cf754d0"
+                    "id": "bb89afdc-c881-11e9-a48e-94659cf754d0"
                 }
             ], 
             "graphid": "ddf1c942-d145-11e8-897e-0242ac1a0004", 
@@ -340,19 +349,21 @@
                     "sortorder": 0
                 }, 
                 {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "", 
+                    "config": {
+                        "rdmCollection": "2c6ff869-4b21-4baf-85cf-844aa151ee77"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": null, 
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004", 
-                    "is_collector": true, 
-                    "isrequired": true, 
+                    "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Virtual Tours File Package", 
-                    "nodegroup_id": "ddf1cb5e-d145-11e8-897e-0242ac1a0004", 
-                    "nodeid": "ddf1cb5e-d145-11e8-897e-0242ac1a0004", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about", 
+                    "name": "Keyword", 
+                    "nodegroup_id": "ddf1d5ea-d145-11e8-897e-0242ac1a0004", 
+                    "nodeid": "61e2852e-f435-11e9-9953-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies", 
                     "sortorder": 0
                 }, 
                 {
@@ -369,6 +380,22 @@
                     "nodeid": "ddf1e9a4-d145-11e8-897e-0242ac1a0004", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E38_Image", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P138_represents", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004", 
+                    "is_collector": true, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Virtual Tours File Package", 
+                    "nodegroup_id": "ddf1cb5e-d145-11e8-897e-0242ac1a0004", 
+                    "nodeid": "ddf1cb5e-d145-11e8-897e-0242ac1a0004", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about", 
                     "sortorder": 0
                 }, 
                 {
@@ -454,6 +481,7 @@
                 "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object", 
                 "sortorder": 0
             }, 
+            "slug": null, 
             "subtitle": "Describes a model specifically purposed for the Virtual Tours viewer", 
             "template_id": "50000000-0000-0000-0000-000000000007", 
             "version": ""

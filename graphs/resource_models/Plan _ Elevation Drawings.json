@@ -148,30 +148,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 }, 
                 {
-                    "card_id": "cbf63f78-eb46-11e8-af25-0242ac160004", 
-                    "config": {
-                        "acceptedFiles": ".png,.jpeg,.jpg,.svg", 
-                        "label": "Thumbnail (400 x 400 pixels)", 
-                        "maxFilesize": "0.2"
-                    }, 
-                    "id": "cbf64aae-eb46-11e8-af25-0242ac160004", 
-                    "label": "Thumbnail (400 x 400 pixels)", 
-                    "node_id": "cbf6434c-eb46-11e8-af25-0242ac160004", 
-                    "sortorder": 1, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000019"
-                }, 
-                {
-                    "card_id": "cbf63f78-eb46-11e8-af25-0242ac160004", 
-                    "config": "{\"maxFilesize\":\"200\",\"acceptedFiles\":\"\",\"label\":\"Information Carrier\"}", 
-                    "id": "cbf649fa-eb46-11e8-af25-0242ac160004", 
-                    "label": "Information Carrier", 
-                    "node_id": "cbf638f2-eb46-11e8-af25-0242ac160004", 
-                    "sortorder": 1, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000019"
-                }, 
-                {
                     "card_id": "601ca12c-d780-11e8-918f-0242ac120004", 
                     "config": {
                         "defaultValue": "", 
@@ -185,6 +161,16 @@
                     "sortorder": 0, 
                     "visible": true, 
                     "widget_id": "10000000-0000-0000-0000-000000000012"
+                }, 
+                {
+                    "card_id": "cbf63f78-eb46-11e8-af25-0242ac160004", 
+                    "config": "{\"maxFilesize\":\"200\",\"acceptedFiles\":\"\",\"label\":\"Information Carrier\"}", 
+                    "id": "cbf649fa-eb46-11e8-af25-0242ac160004", 
+                    "label": "Information Carrier", 
+                    "node_id": "cbf638f2-eb46-11e8-af25-0242ac160004", 
+                    "sortorder": 1, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000019"
                 }, 
                 {
                     "card_id": "601cc3b4-d780-11e8-918f-0242ac120004", 
@@ -283,6 +269,20 @@
                     "sortorder": null, 
                     "visible": true, 
                     "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "cbf63f78-eb46-11e8-af25-0242ac160004", 
+                    "config": {
+                        "acceptedFiles": ".png,.jpeg,.jpg,.svg", 
+                        "label": "Thumbnail (400 x 400 pixels)", 
+                        "maxFilesize": "0.2"
+                    }, 
+                    "id": "cbf64aae-eb46-11e8-af25-0242ac160004", 
+                    "label": "Thumbnail (400 x 400 pixels)", 
+                    "node_id": "cbf6434c-eb46-11e8-af25-0242ac160004", 
+                    "sortorder": 1, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000019"
                 }
             ], 
             "color": "#408d9e", 
@@ -522,7 +522,7 @@
                     }, 
                     "function_id": "60000000-0000-0000-0000-000000000001", 
                     "graph_id": "601c830e-d780-11e8-918f-0242ac120004", 
-                    "id": "98eedef0-6873-11e9-9c81-94659cf754d0"
+                    "id": "bb1c9621-c881-11e9-9471-94659cf754d0"
                 }
             ], 
             "graphid": "601c830e-d780-11e8-918f-0242ac120004", 
@@ -874,8 +874,10 @@
                     "sortorder": 0
                 }, 
                 {
-                    "config": null, 
-                    "datatype": "string", 
+                    "config": {
+                        "rdmCollection": "2c6ff869-4b21-4baf-85cf-844aa151ee77"
+                    }, 
+                    "datatype": "concept-list", 
                     "description": "", 
                     "graph_id": "601c830e-d780-11e8-918f-0242ac120004", 
                     "is_collector": true, 
@@ -1006,12 +1008,13 @@
                 "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
-                "name": "Plan / Elevation Drawing", 
+                "name": "Plan / Elevation Drawings", 
                 "nodegroup_id": null, 
                 "nodeid": "601d2f02-d780-11e8-918f-0242ac120004", 
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object", 
                 "sortorder": 0
             }, 
+            "slug": null, 
             "subtitle": "Model for storing site plans and elevation drawings", 
             "template_id": "50000000-0000-0000-0000-000000000003", 
             "version": ""
