@@ -18,10 +18,11 @@
             "js": "0.54.0",
             "android": "7.4.0",
             "ios": "4.11.0"
-        }
+        },
+        "mapbox:uiParadigm": "layers"
     },
-    "center": [-115.42338771975011, 37.603767990449015],
-    "zoom": 14.449259956532119,
+    "center": [-115.06992503196341, 37.54956766669606],
+    "zoom": 9.252333572016681,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -624,17 +625,9 @@
                     ["exponential", 1.5],
                     ["zoom"],
                     9,
-                    [
-                        "match",
-                        ["get", "type"],
-                        "runway",
-                        1,
-                        "taxiway",
-                        0.5,
-                        0.5
-                    ],
+                    ["match", ["get", "type"], "runway", 1, 0.5],
                     18,
-                    ["match", ["get", "type"], "runway", 80, "taxiway", 20, 20]
+                    ["match", ["get", "type"], "runway", 80, 20]
                 ]
             }
         },
@@ -776,8 +769,7 @@
                     ["corridor", "crossing", "sidewalk"],
                     "hsl(230, 17%, 82%)",
                     "hsl(50, 100%, 40%)"
-                ],
-                "line-opacity": 1
+                ]
             }
         },
         {
@@ -923,8 +915,7 @@
                     ["match", ["get", "class"], "track", 1, 0.5],
                     18,
                     12
-                ],
-                "line-opacity": 1
+                ]
             }
         },
         {
@@ -1389,8 +1380,6 @@
                     ["get", "class"],
                     "motorway_link",
                     "hsl(26, 67%, 70%)",
-                    "trunk_link",
-                    "hsl(46, 69%, 68%)",
                     "hsl(46, 69%, 68%)"
                 ]
             }
@@ -1571,8 +1560,7 @@
                     18,
                     12
                 ],
-                "line-color": "hsl(0, 0%, 100%)",
-                "line-opacity": 1
+                "line-color": "hsl(0, 0%, 100%)"
             }
         },
         {
@@ -1785,8 +1773,6 @@
                         ["get", "class"],
                         "motorway",
                         "hsl(26, 87%, 62%)",
-                        "trunk",
-                        "hsl(0, 0%, 100%)",
                         "hsl(0, 0%, 100%)"
                     ],
                     6,
@@ -1795,8 +1781,6 @@
                         ["get", "class"],
                         "motorway",
                         "hsl(26, 87%, 62%)",
-                        "trunk",
-                        "hsl(46, 80%, 60%)",
                         "hsl(46, 80%, 60%)"
                     ],
                     9,
@@ -1805,8 +1789,6 @@
                         ["get", "class"],
                         "motorway",
                         "hsl(26, 67%, 70%)",
-                        "trunk",
-                        "hsl(46, 69%, 68%)",
                         "hsl(46, 69%, 68%)"
                     ]
                 ]
@@ -2230,15 +2212,7 @@
                     ["exponential", 1.5],
                     ["zoom"],
                     10,
-                    [
-                        "match",
-                        ["get", "class"],
-                        "primary",
-                        1,
-                        ["secondary", "tertiary"],
-                        0.75,
-                        0.75
-                    ],
+                    ["match", ["get", "class"], "primary", 1, 0.75],
                     18,
                     2
                 ],
@@ -2248,25 +2222,9 @@
                     ["exponential", 1.5],
                     ["zoom"],
                     5,
-                    [
-                        "match",
-                        ["get", "class"],
-                        "primary",
-                        0.75,
-                        ["secondary", "tertiary"],
-                        0.1,
-                        0.1
-                    ],
+                    ["match", ["get", "class"], "primary", 0.75, 0.1],
                     18,
-                    [
-                        "match",
-                        ["get", "class"],
-                        "primary",
-                        32,
-                        ["secondary", "tertiary"],
-                        26,
-                        26
-                    ]
+                    ["match", ["get", "class"], "primary", 32, 26]
                 ],
                 "line-opacity": ["step", ["zoom"], 0, 10, 1]
             }
@@ -2571,8 +2529,6 @@
                     ["get", "class"],
                     "motorway_link",
                     "hsl(26, 67%, 70%)",
-                    "trunk_link",
-                    "hsl(46, 69%, 68%)",
                     "hsl(46, 69%, 68%)"
                 ]
             }
@@ -2715,25 +2671,9 @@
                     ["exponential", 1.5],
                     ["zoom"],
                     5,
-                    [
-                        "match",
-                        ["get", "class"],
-                        "primary",
-                        0.75,
-                        ["secondary", "tertiary"],
-                        0.1,
-                        0.1
-                    ],
+                    ["match", ["get", "class"], "primary", 0.75, 0.1],
                     18,
-                    [
-                        "match",
-                        ["get", "class"],
-                        "primary",
-                        32,
-                        ["secondary", "tertiary"],
-                        26,
-                        26
-                    ]
+                    ["match", ["get", "class"], "primary", 32, 26]
                 ],
                 "line-color": "hsl(0, 0%, 100%)"
             }
@@ -2847,8 +2787,6 @@
                     ["get", "class"],
                     "motorway",
                     "hsl(26, 67%, 70%)",
-                    "trunk",
-                    "hsl(46, 69%, 68%)",
                     "hsl(46, 69%, 68%)"
                 ]
             }
@@ -3063,8 +3001,6 @@
                     ["get", "class"],
                     "motorway_link",
                     "hsl(26, 67%, 70%)",
-                    "trunk_link",
-                    "hsl(46, 69%, 68%)",
                     "hsl(46, 69%, 68%)"
                 ]
             }
@@ -3099,8 +3035,6 @@
                     ["get", "class"],
                     "motorway",
                     "hsl(26, 67%, 70%)",
-                    "trunk",
-                    "hsl(46, 69%, 68%)",
                     "hsl(46, 69%, 68%)"
                 ]
             }
@@ -3572,8 +3506,6 @@
                 "text-color": [
                     "match",
                     ["get", "shield_text_color"],
-                    "white",
-                    "hsl(0, 0%, 100%)",
                     "black",
                     "hsl(230, 21%, 37%)",
                     "yellow",
@@ -3815,8 +3747,7 @@
                     17,
                     ["step", ["get", "sizerank"], "center", 13, "top"]
                 ],
-                "text-font": ["Roboto Regular", "Arial Unicode MS Regular"],
-                "visibility": "visible"
+                "text-font": ["Roboto Regular", "Arial Unicode MS Regular"]
             },
             "paint": {
                 "icon-opacity": [
@@ -4044,8 +3975,7 @@
                     17,
                     ["step", ["get", "sizerank"], "center", 13, "top"]
                 ],
-                "text-font": ["Roboto Regular", "Arial Unicode MS Regular"],
-                "visibility": "visible"
+                "text-font": ["Roboto Regular", "Arial Unicode MS Regular"]
             },
             "paint": {
                 "icon-opacity": [
@@ -4232,8 +4162,6 @@
                 "text-color": [
                     "match",
                     ["get", "network"],
-                    "entrance",
-                    "hsl(230, 48%, 44%)",
                     "tokyo-metro",
                     "hsl(180, 50%, 30%)",
                     "mexico-city-metro",
@@ -4317,33 +4245,15 @@
                     ["cubic-bezier", 0.5, 0, 1, 1],
                     ["zoom"],
                     11,
-                    [
-                        "match",
-                        ["get", "type"],
-                        "suburb",
-                        11,
-                        ["quarter", "neighborhood"],
-                        10.5,
-                        10.5
-                    ],
+                    ["match", ["get", "type"], "suburb", 11, 10.5],
                     15,
-                    [
-                        "match",
-                        ["get", "type"],
-                        "suburb",
-                        17,
-                        ["quarter", "neighborhood"],
-                        16,
-                        16
-                    ]
+                    ["match", ["get", "type"], "suburb", 17, 16]
                 ],
                 "text-letter-spacing": [
                     "match",
                     ["get", "type"],
                     "suburb",
                     0.15,
-                    ["quarter", "neighborhood"],
-                    0.1,
                     0.1
                 ],
                 "text-max-width": 7,
@@ -4441,8 +4351,6 @@
                     [
                         "match",
                         ["get", "text_anchor"],
-                        ["bottom", "top"],
-                        "center",
                         ["left", "bottom-left", "top-left"],
                         "left",
                         ["right", "bottom-right", "top-right"],
@@ -4597,8 +4505,6 @@
                     [
                         "match",
                         ["get", "text_anchor"],
-                        ["bottom", "top"],
-                        "center",
                         ["left", "bottom-left", "top-left"],
                         "left",
                         ["right", "bottom-right", "top-right"],
@@ -4674,9 +4580,11 @@
             "minzoom": 4,
             "layout": {
                 "text-field": [
-                    "concat",
-                    ["to-string", ["get", "ACEC_NAME"]],
-                    " ACEC"
+                    "step",
+                    ["zoom"],
+                    ["concat", ["to-string", ["get", "ACEC_NAME"]], " ACEC"],
+                    22,
+                    ["concat", ["to-string", ["get", "ACEC_NAME"]], " ACEC"]
                 ],
                 "text-font": ["Roboto Regular", "Arial Unicode MS Regular"],
                 "text-size": [
@@ -4687,8 +4595,10 @@
                     ["step", ["get", "sizerank"], 18, 13, 12]
                 ],
                 "icon-image": "blm-tiny",
-                "text-anchor": "top",
-                "text-offset": [0, 0.7]
+                "text-offset": [0, -0.7],
+                "text-allow-overlap": true,
+                "text-anchor": "bottom",
+                "icon-allow-overlap": true
             },
             "paint": {
                 "text-color": [
@@ -4728,21 +4638,42 @@
             "source": "composite",
             "source-layer": "Site_Names",
             "layout": {
-                "text-field": [
-                    "concat",
-                    ["to-string", ["get", "LABEL"]],
-                    " Site"
-                ],
-                "text-font": ["Roboto Bold", "Arial Unicode MS Regular"],
-                "icon-image": "embassy-15",
-                "text-anchor": "top",
-                "text-offset": [0, 0.5],
                 "text-size": [
                     "step",
                     ["zoom"],
                     ["step", ["get", "sizerank"], 18, 5, 12],
                     17,
                     ["step", ["get", "sizerank"], 18, 13, 12]
+                ],
+                "text-allow-overlap": true,
+                "icon-image": "embassy-15",
+                "text-font": ["Roboto Bold", "Arial Unicode MS Regular"],
+                "icon-allow-overlap": true,
+                "symbol-placement": ["step", ["zoom"], "point", 22, "point"],
+                "text-offset": [
+                    "match",
+                    ["get", "LABEL"],
+                    ["Paiute Rocks"],
+                    ["literal", [1, 0]],
+                    ["Crescent City / Crescent Spring"],
+                    ["literal", [-0.5, 1.5]],
+                    ["literal", [0, 1]]
+                ],
+                "text-anchor": [
+                    "match",
+                    ["get", "LABEL"],
+                    ["Paiute Rocks"],
+                    "left",
+                    ["Crescent City / Crescent Spring"],
+                    "bottom-right",
+                    "top"
+                ],
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    ["concat", ["to-string", ["get", "LABEL"]], " Site"],
+                    22,
+                    ["concat", ["to-string", ["get", "LABEL"]], " Site"]
                 ]
             },
             "paint": {
@@ -4780,7 +4711,7 @@
     ],
     "created": "2019-10-21T16:30:39.428Z",
     "id": "ck20mz641aby31cqp3w7asyhp",
-    "modified": "2019-10-21T19:04:10.042Z",
+    "modified": "2020-02-10T19:58:36.267Z",
     "owner": "lcai10",
     "visibility": "private",
     "draft": false
