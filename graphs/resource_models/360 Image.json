@@ -133,7 +133,11 @@
             "cards_x_nodes_x_widgets": [
                 {
                     "card_id": "98cda568-1649-11e9-96d3-0242ac140004", 
-                    "config": "{\"maxFilesize\":\"200\",\"acceptedFiles\":\"\",\"label\":\"Information Carrier\"}", 
+                    "config": {
+                        "maxFilesize": "200",
+                        "acceptedFiles": "",
+                        "label": "Information Carrier"
+                    },
                     "id": "98ce1052-1649-11e9-96d3-0242ac140004", 
                     "label": "Information Carrier", 
                     "node_id": "98cd9fdc-1649-11e9-96d3-0242ac140004", 

@@ -164,7 +164,11 @@
                 }, 
                 {
                     "card_id": "cbf63f78-eb46-11e8-af25-0242ac160004", 
-                    "config": "{\"maxFilesize\":\"200\",\"acceptedFiles\":\"\",\"label\":\"Information Carrier\"}", 
+                    "config": {
+                        "maxFilesize": "200",
+                        "acceptedFiles": "",
+                        "label": "Information Carrier"
+                    },
                     "id": "cbf649fa-eb46-11e8-af25-0242ac160004", 
                     "label": "Information Carrier", 
                     "node_id": "cbf638f2-eb46-11e8-af25-0242ac160004", 

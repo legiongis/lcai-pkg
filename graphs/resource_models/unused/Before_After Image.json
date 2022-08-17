@@ -345,7 +345,11 @@
                 }, 
                 {
                     "card_id": "7800c1d6-1661-11e9-bf95-0242ac140004", 
-                    "config": "{\"maxFilesize\":\"200\",\"acceptedFiles\":\"\",\"label\":\"Information Carrier\"}", 
+                    "config": {
+                        "maxFilesize": "200",
+                        "acceptedFiles": "",
+                        "label": "Information Carrier"
+                    },
                     "id": "78013b66-1661-11e9-bf95-0242ac140004", 
                     "label": "Information Carrier", 
                     "node_id": "7800b9ac-1661-11e9-bf95-0242ac140004", 

@@ -149,7 +149,11 @@
                 }, 
                 {
                     "card_id": "982e2fd8-eb4c-11e8-b8b6-0242ac160004", 
-                    "config": "{\"maxFilesize\":\"200\",\"acceptedFiles\":\"\",\"label\":\"Information Carrier\"}", 
+                    "config": {
+                        "maxFilesize": "200",
+                        "acceptedFiles": "",
+                        "label": "Information Carrier"
+                    },
                     "id": "982e34f6-eb4c-11e8-b8b6-0242ac160004", 
                     "label": "Information Carrier", 
                     "node_id": "982e2c54-eb4c-11e8-b8b6-0242ac160004", 

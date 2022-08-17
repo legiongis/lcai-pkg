@@ -1113,7 +1113,11 @@
                 }, 
                 {
                     "card_id": "a7fb9494-bfed-11e8-a478-0242ac160004", 
-                    "config": "{\"maxFilesize\":\"200\",\"acceptedFiles\":\"\",\"label\":\"Information Carrier\"}", 
+                    "config": {
+                        "maxFilesize": "200",
+                        "acceptedFiles": "",
+                        "label": "Information Carrier"
+                    }, 
                     "id": "a7fba01a-bfed-11e8-a478-0242ac160004", 
                     "label": "Information Carrier", 
                     "node_id": "a7fb8cf6-bfed-11e8-a478-0242ac160004", 
