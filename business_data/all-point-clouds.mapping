@@ -54,13 +54,6 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "d60b3f40-b477-11e9-aff0-94659cf754d0", 
-            "arches_node_name": "Site Boundary", 
-            "file_field_name": "boundary", 
-            "data_type": "geojson-feature-collection", 
-            "export": false
-        },
-        {
             "arches_nodeid": "a6273f61-b489-11e9-9385-94659cf754d0", 
             "arches_node_name": "Related 3D Panels", 
             "file_field_name": "panels", 
