@@ -1999,8 +1999,8 @@
                         },
                         "descriptor_types": {
                             "description": {
-                                "nodegroup_id": "2fe7d85c-d139-11e8-8e63-0242ac1a0004",
-                                "string_template": "<Description>"
+                                "nodegroup_id": "4b9b3314-d12f-11e8-85df-0242ac1a0004",
+                                "string_template": "<Thumbnail Image>"
                             },
                             "map_popup": {
                                 "nodegroup_id": "2fe7d85c-d139-11e8-8e63-0242ac1a0004",
@@ -2023,7 +2023,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
-                    "id": "9fb0900a-1f0f-11ed-9712-2f01f317605d"
+                    "id": "85f92386-2943-11ed-ad39-e746f226a47a"
                 }
             ],
             "graphid": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -2493,7 +2493,12 @@
                             "601c830e-d780-11e8-918f-0242ac120004",
                             "2995daea-d6d3-11e8-9eb1-0242ac150004"
                         ],
-                        "graphs": [],
+                        "graphs": [
+                            {
+                                "graphid": "2995daea-d6d3-11e8-9eb1-0242ac150004",
+                                "name": "Image"
+                            }
+                        ],
                         "options": [],
                         "searchDsl": "",
                         "searchString": ""
@@ -3516,7 +3521,12 @@
                         "graphid": [
                             "2995daea-d6d3-11e8-9eb1-0242ac150004"
                         ],
-                        "graphs": [],
+                        "graphs": [
+                            {
+                                "graphid": "2995daea-d6d3-11e8-9eb1-0242ac150004",
+                                "name": "Image"
+                            }
+                        ],
                         "searchDsl": "",
                         "searchString": ""
                     },
@@ -3565,7 +3575,7 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.11 (Ubuntu 12.11-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "db": "PostgreSQL 12.12 (Ubuntu 12.12-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
         "git hash": "eae7c6228 2022-06-16 17:04:09 -0700",
         "os": "Linux",
         "os version": "5.15.0-46-generic"

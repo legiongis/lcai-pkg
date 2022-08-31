@@ -535,7 +535,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
-                    "id": "143de7cd-1e4b-11ed-9712-2f01f317605d"
+                    "id": "7b97e078-28a7-11ed-ad39-e746f226a47a"
                 }
             ],
             "graphid": "9b591814-c0f2-11e8-9c8c-0242ac120004",
@@ -777,7 +777,12 @@
                         "graphid": [
                             "36bcaff4-b82f-11e8-8598-0242ac120004"
                         ],
-                        "graphs": [],
+                        "graphs": [
+                            {
+                                "graphid": "36bcaff4-b82f-11e8-8598-0242ac120004",
+                                "name": "3D Rock Art Panel"
+                            }
+                        ],
                         "searchDsl": "",
                         "searchString": ""
                     },
@@ -986,7 +991,7 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.11 (Ubuntu 12.11-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "db": "PostgreSQL 12.12 (Ubuntu 12.12-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
         "git hash": "eae7c6228 2022-06-16 17:04:09 -0700",
         "os": "Linux",
         "os version": "5.15.0-46-generic"
