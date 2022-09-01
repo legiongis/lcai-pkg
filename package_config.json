@@ -4,6 +4,7 @@
         "all-virtual-tours.csv",
         "all-images.csv",
         "all-3d-panels_v6.csv",
-        "all-pointclouds.json"
+        "all-pointclouds.json",
+        "all-documents.csv"
     ]
 }
