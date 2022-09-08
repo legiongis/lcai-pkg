@@ -1,0 +1,1 @@
+This is an Arches package to accompany the [lcai](https://github.com/legiongis/lcai) Arches project. Please see that repo for more information.
